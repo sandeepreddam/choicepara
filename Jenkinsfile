@@ -1,6 +1,6 @@
 pipeline
 {
-  agent {label 'sandeep'}
+  agent any
    parameters 
 {
   choice choices: ['master', 'ravitejareddy'], description: 'picksomething', name: 'choice'
